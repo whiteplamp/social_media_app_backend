@@ -18,7 +18,9 @@ class UserSignUp(BaseModel):
     def check_email(cls, value):
         try:
             validate_email(value)
-        except Exception:
+        except Exception as error:
+            print(error.__class__.name)
+            print(error)
             raise ValueError("Wrong email")
         return value
 
