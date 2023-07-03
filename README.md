@@ -3,7 +3,7 @@
 ## How to deploy
 ### Linux
 #### Install [Docker]("https://docs.docker.com/engine/install/ubuntu/") and [Docker compose]("https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04") (Step 1 from link)
-
+#### Add [Docker to sudo]("https://docs.docker.com/engine/install/linux-postinstall/")(Step: manage docker as non-root user)
 
 ### Clone repository
 ```sh

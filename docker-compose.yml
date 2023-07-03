@@ -64,7 +64,3 @@ services:
       - postgres
 volumes:
   db-data:
-
-networks:
-  postgres:
-    driver: bridge
