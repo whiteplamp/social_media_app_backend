@@ -1,4 +1,4 @@
-# Webtronics test task solution
+# Social media app backend
 
 ## How to deploy
 ### Linux
